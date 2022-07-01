@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/8cb629a0f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Form with Tailwind CSS</title>
+  </head>
+  <body class="bg-sky-500 flex flex-col items-center">
+    <div class="form-container mt-20 bg-white w-1/4 rounded h-3/4">
+      <form>
+        <div class="flex flex-col">
+          <h3 class="font-bold text-3xl text-center mt-15 pt-8">Login</h3>
+          <div class="ml-10 mt-10">
+            <label>Username</label>
+            <div>
+              <i class="fa-solid fa-user text-gray-500"></i
+              ><input
+                type="text"
+                placeholder=" Type your username"
+                class="w-3/4 border-b-4 border-0"
+              />
+            </div>
+          </div>
+
+          <div class="ml-10 mt-5">
+            <label>Password</label>
+            <div>
+              <i class="fa-solid fa-lock text-gray-500"></i
+              ><input
+                type="password"
+                placeholder=" Type your password"
+                class="w-3/4 border-b-4 border-0"
+              />
+            </div>
+          </div>
+
+          <a href="#" class="self-end mr-10">Forgot password?</a>
+
+          <div
+            class="self-center mt-5 w-3/4 bg-blue-500 text-center text-white rounded-full py-1 font-bold"
+          >
+            <button>LOGIN</button>
+          </div>
+
+          <div class="self-center mt-10">
+            <span>Or Sign Up using</span>
+            <div class="ml-5">
+              <a href="#" class="text-blue-800"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="text-sky-500"
+                ><i class="fa-brands fa-twitter pl-3"></i
+              ></a>
+              <a href="#" class="text-red-800"
+                ><i class="fa-brands fa-google pl-3"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <h1 class="text-6xl">Hello Qozeem!</h1>
+  </body>
+</html>
